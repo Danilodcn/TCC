@@ -2,6 +2,7 @@ import click
 from unittest import TestLoader, runner
 from app import create_app
 
+
 @click.group()
 def command():
     ...
