@@ -10,8 +10,6 @@ scipy = "*"
 matplotlib = "*"
 tinymongo = "*"
 pytest = "*"
-ipython = "*"
-ipdb = "*"
 requests = "*"
 
 [dev-packages]

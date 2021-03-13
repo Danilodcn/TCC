@@ -11,7 +11,7 @@ class TesteBlueprint(TestCase):
         self.rota = "/"
         self.app = Flask(__name__)
         self.app.register_blueprint(create_bp(self.rota))
-        #import ipdb; ipdb.set_trace()
+
         self.app.context = self.app.test_request_context()
         self.app.context.push()
         self.client = self.app.test_client()
