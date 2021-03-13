@@ -44,8 +44,6 @@ def create_app():
 
     return app
 
+app = create_app()
+app.debug = True
 
-if __name__ == "__main__":
-    app = create_app()
-    app.debug = True
-    app.run()
